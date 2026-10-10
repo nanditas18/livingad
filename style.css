@@ -1,14 +1,14 @@
 /* ==========================================================================
    Neosophical Lab - Design System & Theme Stylesheet
    Tagline: Fresh Ideas. Smart Marketing.
-   Color Palette: Seashell (#fff4eb), Wheat (#f6e0b6), Midnight Violet (#3d1534)
+   Color Palette: Seashell (#FFF5EE), Wheat (#F5DEB3), Midnight Violet (#2C1A4D)
    ========================================================================== */
 
 :root {
   /* Color Palette Tokens */
-  --color-seashell: #fff4eb;
-  --color-wheat: #f6e0b6;
-  --color-midnight-violet: #3d1534;
+  --color-seashell: #FFF5EE;
+  --color-wheat: #F5DEB3;
+  --color-midnight-violet: #2C1A4D;
 
   /* Light Theme Mapping */
   --bg-main: var(--color-seashell);
@@ -18,20 +18,20 @@
   --bg-sidebar: var(--color-wheat);
 
   --text-main: var(--color-midnight-violet);
-  --text-muted: #5e2853;
-  --text-light: #7e3a70;
+  --text-muted: #533979;
+  --text-light: #775c9e;
 
-  --border-color: rgba(61, 21, 52, 0.2);
+  --border-color: rgba(44, 26, 77, 0.2);
   --border-hover: var(--color-midnight-violet);
 
   --primary: var(--color-midnight-violet);
-  --primary-hover: #4a193f;
+  --primary-hover: #3b2366;
   --primary-light: var(--color-wheat);
   --primary-border: var(--color-midnight-violet);
 
-  --shadow-sm: 0 2px 6px rgba(61, 21, 52, 0.05);
-  --shadow-md: 0 6px 16px rgba(61, 21, 52, 0.08);
-  --shadow-lg: 0 12px 28px rgba(61, 21, 52, 0.12);
+  --shadow-sm: 0 2px 6px rgba(44, 26, 77, 0.05);
+  --shadow-md: 0 6px 16px rgba(44, 26, 77, 0.08);
+  --shadow-lg: 0 12px 28px rgba(44, 26, 77, 0.12);
 
   /* Soft Corner Radius Tokens */
   --radius-sm: 8px;
@@ -44,28 +44,28 @@
 }
 
 [data-theme="dark"] {
-  /* Dark Theme Mapping */
-  --bg-main: var(--color-midnight-violet);
-  --bg-surface: #2a0e24;
-  --bg-surface-hover: #35122d;
-  --bg-subtle: #45173b;
-  --bg-sidebar: #240c1e;
+  /* Dark Theme Mapping - Pure Sleek Dark (No Purple) */
+  --bg-main: #121214;
+  --bg-surface: #1a1a1e;
+  --bg-surface-hover: #24242b;
+  --bg-subtle: #202026;
+  --bg-sidebar: #151518;
 
   --text-main: var(--color-seashell);
   --text-muted: var(--color-wheat);
-  --text-light: #d4ba96;
+  --text-light: #dfc8a0;
 
-  --border-color: rgba(246, 224, 182, 0.25);
+  --border-color: rgba(245, 222, 179, 0.2);
   --border-hover: var(--color-wheat);
 
   --primary: var(--color-wheat);
   --primary-hover: var(--color-seashell);
-  --primary-light: var(--color-midnight-violet);
+  --primary-light: #25252d;
   --primary-border: var(--color-wheat);
 
-  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.6);
 }
 
 * {
@@ -1112,7 +1112,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(61, 21, 52, 0.4);
+  background-color: rgba(44, 26, 77, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;

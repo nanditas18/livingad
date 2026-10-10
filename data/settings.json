@@ -1,0 +1,8 @@
+{
+  "monthlyBudgetCap": 500,
+  "enforcedStartupState": "PAUSED",
+  "supportedPlatforms": [
+    "Facebook Ads",
+    "Instagram Ads"
+  ]
+}
